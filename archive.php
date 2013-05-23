@@ -42,7 +42,6 @@
 					<li><a href="http://caughtinthecarousel.com/category/category/archived-album">All Album Archives</a></li>
 				</ul>
 		</div>
-		 <?php echo adwit_banner_manager_banner(668656475, 250, 250); ?>
   
 	</div>
 
