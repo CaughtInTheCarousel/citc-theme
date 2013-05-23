@@ -67,20 +67,15 @@
 		    <div class="nine columns"> <!-- Center Column Start -->
 	<div>
 		    
-		        <ul class="more-list">
-
-  <div class="row">
-
-	      
-	
-			          <li class="get-more"><a href="/category/news">NEWS, NEWS, and MORE NEWS</a><li>
-		        </ul>
+		        <div class="titling-block">
+					<h4 class="titling gray">NEWS, NEWS, and MORE NEWS</h4>
+				</div>
 		      </div>
     
 
 		
 		          
-		      <!-- ** Interviews Start -->
+		      <!-- ** News Start -->
 		      
 			<?php 
 			$args = array(
@@ -100,16 +95,22 @@
 
 	      
 	
-			          <li class="get-more"><a href="/category/news">MORE NEWS</a><li>
+			          <li class="get-more"><a href="/category/news">MORE NEWS</a></li>
 		        </ul>
 		      </div>
     
 		      
-			<!-- Interview Stop -->
+			<!-- News Stop -->
 			
 <!-- TEST FEED START -->
 
 <div>
+
+			
+
+			 <div class="titling-block">
+					<h4 class="titling gray">INTERVIEWS</h4>
+				</div>
 		    
 		        <ul class="more-list">
 
@@ -124,7 +125,7 @@
 			$posts = get_posts($args); ?>
 			<?php include 'wide-article-view.php'; ?>
 			
-			          <li class="get-more"><a href="/category/interviews">MORE INTERVIEWS</a><li>
+			          <li class="get-more"><a href="/category/interviews">MORE INTERVIEWS</a></li>
 		        </ul>
 		      </div>
 		      
