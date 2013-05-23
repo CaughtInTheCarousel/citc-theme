@@ -131,16 +131,6 @@
 		      
 		
 <!-- TEST FEED ENDS -->
-  		
-	       <?php 
-			$args = array(
-		    'numberposts'     => 1,
-		    'category'        => 18,
-		    'orderby'         => 'post_date',
-		    'order'           => 'DESC');
-			$posts = get_posts($args) ?>
-
-			<?php include 'featured-video-view.php' ?>
   	
 		      <div class="titling-block">
 		        <h4 class="titling gray">Columns</h4>
@@ -176,7 +166,7 @@
 										<?php endwhile;
 										endif;
 		        				} ?>
-
+				
 		        	</div>
 		        	<div class="six columns">
 		        			<?php
@@ -209,13 +199,16 @@
 		      </div>
   
 		      <div class="minimal-block">
-		    	
-		        <h4 class="titling">Coming Soon</h4>
-		        	
-            <div class="padded-content">
-		        <p>Interviews with Kail Baxley, Carrie Rodriguez, Glen Phillips, Richard Barone, Bettie Serveert and The Del-Lords.
-Also, David Porter's "20,000 Things I Love" and much, much more!</p>
-		      </div>
+
+			  <?php 
+			$args = array(
+		    'numberposts'     => 1,
+		    'category'        => 18,
+		    'orderby'         => 'post_date',
+		    'order'           => 'DESC');
+			$posts = get_posts($args) ?>
+
+			<?php include 'featured-video-view.php' ?> 
 		      
 		      </div>
 		    </div>

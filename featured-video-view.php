@@ -1,6 +1,6 @@
 
       <div class="stylish-block featured-video">
-            <h4 class="titling">Featured Video</h4>
+            <h4 class="titling gray">Featured Video</h4>
 
       <?php foreach($posts as $post) : setup_postdata($post); ?>
       <?php $post_image = get_the_post_thumbnail( $post->ID, 'wpbs-featured', array( 'class' => 'feature-image') ); 

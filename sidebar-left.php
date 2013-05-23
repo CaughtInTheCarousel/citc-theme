@@ -17,7 +17,7 @@
 						
 		      <div class="minimal-block sidebar featured-album">
 		    
-		        <h4 class="titling">Featured Album</h4>
+		        <h4 class="titling gray">Featured Album</h4>
 		        <a href="<?php the_permalink(); ?>">
 		          <div class="album-image">
 		            <?php the_post_thumbnail( 'wpbs-featured' ); ?>

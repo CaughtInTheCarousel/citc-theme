@@ -366,6 +366,10 @@ a:hover .stylish-block {
   display: block;
   width: 100%;
 }
+
+/* Album review Title Margin Fix */
+.hide-for-small {margin-bottom: 0px !important;}
+
 /* -----------------------------------------
    Feature Hero
 ----------------------------------------- */
@@ -473,17 +477,13 @@ a:hover .stylish-block {
 }
 .more-list li {
   list-style-type: none;
-}
-
-.more-list li:nth-child(even) {
   background: #edf0f6;
 }
-.more-list li:hover:nth-child(even) {
+
+.more-list li:hover {
   background: #e7ebf4;
 }
-.more-list li:hover:nth-child(odd) {
-  background: #f5f7fb;
-}
+
 .more-list li a { 
   display: block;
   color: #222;
