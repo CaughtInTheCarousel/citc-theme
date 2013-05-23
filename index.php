@@ -16,11 +16,15 @@
 		      	foreach( $two_features as $post ) : 
 		      		if (!$i) {
 ?>
-
-		        <div class="seven columns no-padding">
+				<div class="titling-block">
+					<h4 class="titling">FEATURED ARTICLES</h4>
+				</div>
+		        
+				<div class="seven columns no-padding">
+				
 		          <div class="twelve columns">
 		          	<a href="<?php the_permalink(); ?>">
-			            <h4 class="titling left-align"><?php the_title(); ?></h4>
+			            <h4 class="titling left-align gray"><?php the_title(); ?></h4>
 			            <div class="feature-image-wrapper">
 			            	<?php the_post_thumbnail( 'wpbs-featured', array( 'class' => 'feature-image') ); ?>
 			          	</div>
@@ -36,7 +40,7 @@
 		        <div class="five columns no-padding">
 		          <div class="twelve columns">
 		          	<a href="<?php the_permalink(); ?>">
-			            <h4 class="titling left-align"><?php the_title(); ?></h4>
+			            <h4 class="titling left-align gray"><?php the_title(); ?></h4>
 			            <div class="feature-image-wrapper">
 			            	<?php the_post_thumbnail( 'wpbs-featured', array( 'class' => 'feature-image') ); ?>
 			          	</div>
