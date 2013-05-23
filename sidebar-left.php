@@ -55,15 +55,8 @@
 						<a href="/category/reviews">More Album Reviews</a>
 						
 					</div>
-			
-		         <div class="album-link last">
-		         
-		          <?php if(function_exists('drawAdsPlace')) drawAdsPlace(array('id' => 3), true); ?>
-		    
-		        </div>
 		  
 		      </div>
-		      <?php echo adwit_banner_manager_banner(4072078423, 250, 250); ?>
-
+			  
 		    </div>
 	
