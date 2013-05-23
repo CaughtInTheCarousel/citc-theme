@@ -25,7 +25,7 @@
 			            	<?php the_post_thumbnail( 'wpbs-featured', array( 'class' => 'feature-image') ); ?>
 			          	</div>
 		          	</a>
-		            <p><?php auto_excerpt($post->post_content, 70); ?></p>
+		            <p><?php auto_excerpt($post->post_content, 140); ?></p>
 		      
 		          </div>
 				  
@@ -41,7 +41,7 @@
 			            	<?php the_post_thumbnail( 'wpbs-featured', array( 'class' => 'feature-image') ); ?>
 			          	</div>
 		          	</a>
-		            <p><?php auto_excerpt($post->post_content, 70); ?></p>
+		            <p><?php auto_excerpt($post->post_content, 140); ?></p>
 
 		          </div>
 		    
@@ -106,35 +106,7 @@
     
 		      
 			<!-- Interview Stop -->
-
-	
-			<!-- News Feed Start -->
-		    <div class="minimal-block">
-		        <h4 class="titling">Newsfeed</h4>
-		        <ul class="more-list">
-
-			<?php 
-			$args = array(
-		    'numberposts'     => 4,
-		    'category'        => 5,
-		    'orderby'         => 'post_date',
-		    'order'           => 'DESC');
-			$posts = get_posts($args); ?>
-
-        <?php foreach($posts as $post) : setup_postdata(post); ?>
-          <li><a href="<?php the_permalink(); ?>"><?php $post_image = get_the_post_thumbnail( $post->ID, 'wpbs-featured', array( 'class' => 'feature-image') );
-			echo '<div style="max-height: 120px;" class="image-newsfeed one columns">'.$post_image.'</div>'; ?><?php auto_excerpt($post->post_content, 180); ?>
-          </a></li>
-        <?php endforeach; ?>
-        
-
-		          <li class="get-more"><a href="/category/interviews">More Interviews</a><li>
-		        </ul>
-		      </div>
-		      
-		      
-				<!-- News Feed End -->
-	
+			
 <!-- TEST FEED START -->
 
 <div>
