@@ -24,11 +24,11 @@
 			            <div class="feature-image-wrapper">
 			            	<?php the_post_thumbnail( 'wpbs-featured', array( 'class' => 'feature-image') ); ?>
 			          	</div>
-		          	<!-- --> </a>
+		          	</a>
 		            <p><?php auto_excerpt($post->post_content, 70); ?></p>
 		      
 		          </div>
-		            <?php the_subheading(); ?>
+				  
 		        </div>
 <?php
 		      	} else {
@@ -40,9 +40,9 @@
 			            <div class="feature-image-wrapper">
 			            	<?php the_post_thumbnail( 'wpbs-featured', array( 'class' => 'feature-image') ); ?>
 			          	</div>
-		          	<!-- --> </a>
+		          	</a>
 		            <p><?php auto_excerpt($post->post_content, 70); ?></p>
-		             <?php the_subheading(); ?>
+
 		          </div>
 		    
 		      
