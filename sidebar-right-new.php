@@ -17,7 +17,5 @@
       
         </ul>
       </div>
- <?php echo adwit_banner_manager_banner(4150897297, 250, 110); ?>
-  
         </div>
      

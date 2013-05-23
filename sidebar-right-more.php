@@ -40,16 +40,9 @@
 
           ?>
         <ul class="more-list">
-        <!--  <li><a href="#">
-          <img src="http://placehold.it/284x284" class="sidebar-album">
-          <br />Lorem ipsum dolor sit amet.</a></li>
-        -->
         <?php foreach($posts_array as $post) : setup_postdata($post); ?>
           <li><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></li>
         <?php endforeach; ?>
         </ul>
-      </div>
-      <div class="vertisment">
-        <?php if(function_exists('drawAdsPlace')) drawAdsPlace(array('id' => 4), true); ?>
       </div>
     </div>
