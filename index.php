@@ -24,8 +24,8 @@
 			            <div class="feature-image-wrapper">
 			            	<?php the_post_thumbnail( 'wpbs-featured', array( 'class' => 'feature-image') ); ?>
 			          	</div>
-		          	<!--- </a>
-		            <p><?php auto_excerpt($post->post_content, 70); ?></p> ---!>
+		          	<!-- --> </a>
+		            <p><?php auto_excerpt($post->post_content, 70); ?></p>
 		      
 		          </div>
 		            <?php the_subheading(); ?>
@@ -40,8 +40,8 @@
 			            <div class="feature-image-wrapper">
 			            	<?php the_post_thumbnail( 'wpbs-featured', array( 'class' => 'feature-image') ); ?>
 			          	</div>
-		          	<!--- </a>
-		            <p><?php auto_excerpt($post->post_content, 70); ?></p> ---!>
+		          	<!-- --> </a>
+		            <p><?php auto_excerpt($post->post_content, 70); ?></p>
 		             <?php the_subheading(); ?>
 		          </div>
 		    
@@ -55,7 +55,6 @@
 ?>
 		      	
 		        <div class="clear"></div>
-		        <?php echo adwit_banner_manager_banner(2481520901, 728, 90); ?>
 		      </div>
 		       
 		    </div>
@@ -107,18 +106,10 @@
     
 		      
 			<!-- Interview Stop -->
-			
-<?php echo adwit_banner_manager_banner(4138928249, 728, 90); ?>
 
-	
-		
-
-		     <!-- <div class="vertisment">
-		        <?php if(function_exists('drawAdsPlace')) { drawAdsPlace(array('id' => 1), true); } ?>
-		      <!-- </div>
 	
 			<!-- News Feed Start -->
-		    <!--  <div class="minimal-block">
+		    <div class="minimal-block">
 		        <h4 class="titling">Newsfeed</h4>
 		        <ul class="more-list">
 
@@ -167,7 +158,6 @@
 		      
 		
 <!-- TEST FEED ENDS -->
-				<?php echo adwit_banner_manager_banner(2895463816, 728, 90); ?>
   		
 	       <?php 
 			$args = array(
@@ -178,8 +168,6 @@
 			$posts = get_posts($args) ?>
 
 			<?php include 'featured-video-view.php' ?>
-
-	<?php echo adwit_banner_manager_banner(1441387638, 728, 100); ?>
   	
 		      <div class="titling-block">
 		        <h4 class="titling gray">Columns</h4>
@@ -246,7 +234,6 @@
 		        </div>
 		        
 		      </div>
-		      	<?php echo adwit_banner_manager_banner(3833715874, 728, 100); ?>
   
 		      <div class="minimal-block">
 		    	
@@ -259,10 +246,5 @@ Also, David Porter's "20,000 Things I Love" and much, much more!</p>
 		      
 		      </div>
 		    </div>
-		         <div class="vertisment">
-		        <?php if(function_exists('drawAdsPlace')) { drawAdsPlace(array('id' => 1), true); } ?>
-		      </div>
 		  </div>
-
-<?php echo adwit_banner_manager_banner(3124938884, 1000, 120); ?>  
 <?php get_footer(); ?>
