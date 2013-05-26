@@ -7,7 +7,14 @@
               break;
             }
           }
-          $posts_array = wp_get_recent_posts(); ?>
+	
+	 
+	 		/* Display published articles only! */
+			$args = array('post_status' => 'publish');
+	
+			$posts_array = wp_get_recent_posts($args); 
+		?>
+        
         <h4 class="titling">Recent Articles</h4>
         <ul class="more-list">
         <?php foreach($posts_array as $post) : setup_postdata($post); ?>
