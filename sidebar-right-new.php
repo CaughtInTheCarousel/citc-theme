@@ -20,9 +20,7 @@
         <?php foreach($posts_array as $post) : setup_postdata($post); ?>
           <li><a href="<?php echo get_permalink($post["ID"]); ?>"><?php echo $post["post_title"]; ?></a></li>
         <?php endforeach; ?>
-          <li class="get-more"><a href="<?php get_category_link($cat_id); ?>">View All</a></li>
-      
         </ul>
-      </div>
-        </div>
+     </div>
+    </div>
      
