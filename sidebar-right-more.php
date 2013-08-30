@@ -1,5 +1,21 @@
     <div class="four columns">
       <div class="minimal-block sidebar">
+				<h4 class="titling">Sponsor</h4>
+				<p align="center>
+					<script type="text/javascript"><!--
+						google_ad_client = "ca-pub-3662853757277206";
+						/* CITC ARTICLE 1 */
+						google_ad_slot = "1086664178";
+						google_ad_width = 250;
+						google_ad_height = 250;
+						//-->
+					</script>
+					<script type="text/javascript" src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
+					</script>
+				</p>
+      </div>
+	  
+	  <div class="minimal-block sidebar">
         <h4 class="titling">More 
           <?php 
 

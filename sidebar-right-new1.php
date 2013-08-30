@@ -1,5 +1,6 @@
     <div class="four columns">
-      <div class="minimal-block sidebar">
+	  
+	  <div class="minimal-block sidebar">
           <?php 
           
           for($cat_id = 3; $cat_id < 3; $cat_id++){

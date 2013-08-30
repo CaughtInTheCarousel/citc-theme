@@ -14,8 +14,23 @@
 		      	foreach( $albums as $post ) : 
 		      		if (!$i) {
 						?>
-						
-		      <div class="minimal-block sidebar featured-album">
+			  <div class="minimal-block sidebar featured-album">
+				<h4 class="titling gray">Sponsor</h4>
+				<p align="center>
+					<script type="text/javascript"><!--
+						google_ad_client = "ca-pub-3662853757277206";
+						/* CITC HOME 1 */
+						google_ad_slot = "5656464573";
+						google_ad_width = 200;
+						google_ad_height = 200;
+						//-->
+					</script>
+					<script type="text/javascript" src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
+					</script>
+				</p>
+              </div>			  
+		      
+			  <div class="minimal-block sidebar featured-album">
 		    
 		        <h4 class="titling gray">Featured Album</h4>
 		        <a href="<?php the_permalink(); ?>">
